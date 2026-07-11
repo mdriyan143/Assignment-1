@@ -86,64 +86,104 @@
         </div>
     </section>
 
-<section class="price-section">
-  <h2>Secure Your Spot</h2>
-  <p class="price-title">Early-bird pricing ends August 15, 2026.</p>
+    <section class="price-section">
+        <h2>Secure Your Spot</h2>
+        <p class="price-title">Early-bird pricing ends August 15, 2026.</p>
 
-  <div class="boxes">
+        <div class="boxes">
 
-    
-    <div class="price-box">
-      <p class="plan-title">Standard</p>
-      <h3 class="plan-price">$399</h3>
-      <p class="plan-text">per person</p>
-      <ul class="plan-list">
-        <li>Access to all 3 conference days</li>
-        <li>48 curated technical talks</li>
-        <li>2 workshop sessions</li>
-        <li>Networking lunch & coffee breaks</li>
-        <li>Conference swag bag</li>
-        <li>Digital recordings (30 days)</li>
-      </ul>
-      <button class="plan-btn">Get Standard</button>
+
+            <div class="price-box">
+                <p class="plan-title">Standard</p>
+                <h3 class="plan-price">$399</h3>
+                <p class="plan-text">per person</p>
+                <ul class="plan-list">
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshop sessions</li>
+                    <li>Networking lunch & coffee breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 days)</li>
+                </ul>
+                <button class="plan-btn">Get Standard</button>
+            </div>
+
+
+            <div class="price-box special-box">
+                <p class="plan-title">Pro</p>
+                <h3 class="plan-price">$749</h3>
+                <p class="plan-text">per person</p>
+                <ul class="plan-list">
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshop access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on-1 mentorship (30 min)</li>
+                </ul>
+                <button class="plan-btn special-btn">Get Pro</button>
+            </div>
+
+
+            <div class="price-box other-box">
+                <p class="plan-title">Team</p>
+                <h3 class="plan-price">$5,999</h3>
+                <p class="plan-text">up to 10 people</p>
+                <ul class="plan-list">
+                    <li>Everything in Pro (10 seats)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <button class="plan-btn other-btn">Contact Us</button>
+            </div>
+
+        </div>
+    </section>
+
+<section class="schedule">
+    <h2>Conference Schedule</h2>
+    <p class="schedule-subtitle">Three Days of Learning & Networking</p>
+
+    <input type="radio" name="day" id="day1" checked>
+    <input type="radio" name="day" id="day2">
+    <input type="radio" name="day" id="day3">
+
+    <div class="day-tabs">
+        <label for="day1">Day 1</label>
+        <label for="day2">Day 2</label>
+        <label for="day3">Day 3</label>
     </div>
 
-    
-    <div class="price-box special-box">
-      <p class="plan-title">Pro</p>
-      <h3 class="plan-price">$749</h3>
-      <p class="plan-text">per person</p>
-      <ul class="plan-list">
-        <li>Everything in Standard</li>
-        <li>Unlimited workshop access</li>
-        <li>Speaker meet & greet</li>
-        <li>VIP networking dinner</li>
-        <li>Lifetime recording access</li>
-        <li>1-on-1 mentorship (30 min)</li>
-      </ul>
-      <button class="plan-btn special-btn">Get Pro</button>
-    </div>
+    <ul class="schedule-list" id="panel-day1">
+        <li><time>🕘 09:00 AM</time> Registration &amp; Welcome</li>
+        <li><time>🎤 10:00 AM</time> Opening Keynote — Andrej Karpathy</li>
+        <li><time>☕ 11:30 AM</time> Coffee Break</li>
+        <li><time>💻 12:00 PM</time> AI &amp; Machine Learning Workshop</li>
+        <li><time>🍴 01:30 PM</time> Lunch Break</li>
+        <li><time>☁️ 02:30 PM</time> Cloud &amp; DevOps Panel</li>
+        <li><time>🤝 04:00 PM</time> Networking Session</li>
+    </ul>
 
-    
-    <div class="price-box other-box">
-      <p class="plan-title">Team</p>
-      <h3 class="plan-price">$5,999</h3>
-      <p class="plan-text">up to 10 people</p>
-      <ul class="plan-list">
-        <li>Everything in Pro (10 seats)</li>
-        <li>Dedicated team lounge access</li>
-        <li>Private workshop booking</li>
-        <li>Company logo on event page</li>
-        <li>Recruitment booth (1 day)</li>
-        <li>Priority customer support</li>
-      </ul>
-      <button class="plan-btn other-btn">Contact Us</button>
-    </div>
+    <ul class="schedule-list" id="panel-day2">
+        <li><time>🕘 09:00 AM</time> Doors Open &amp; Coffee</li>
+        <li><time>🎤 10:00 AM</time> Keynote — Demis Hassabis</li>
+        <li><time>💻 11:30 AM</time> Frontend Systems at Scale — Gary Marcus</li>
+        <li><time>🍴 01:00 PM</time> Lunch Break</li>
+        <li><time>🔐 02:00 PM</time> Security in the Age of AI — Mustafa Suleyman</li>
+        <li><time>🤝 03:30 PM</time> Speaker Meet &amp; Greet</li>
+    </ul>
 
-  </div>
-</section>     
-
-        
+    <ul class="schedule-list" id="panel-day3">
+        <li><time>🕘 09:00 AM</time> Morning Coffee</li>
+        <li><time>💻 10:00 AM</time> Hands-on Workshops (Parallel Tracks)</li>
+        <li><time>🍴 12:30 PM</time> Lunch Break</li>
+        <li><time>🎯 01:30 PM</time> Closing Panel: What's Next in Tech</li>
+        <li><time>🎉 03:00 PM</time> Closing Remarks &amp; Farewell</li>
+    </ul>
+</section>
 
 </body>
 
