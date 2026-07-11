@@ -1,0 +1,17 @@
+i completed website using html and css. In my file, nav, hero, speacker, 
+price section already added. give somthing new what kind of section match here suggest me, 
+i think schedule match little bit, (note: this is acutally dev conference )
+
+My structure:
+
+Navbar
+
+Hero
+
+Meet the Speakers
+
+Pricing
+
+( want to add here )
+
+Footer

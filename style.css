@@ -131,7 +131,7 @@ nav ul {
     color: #575757;
 }
 
-/* Price Section */
+
 
 .price-section {
     padding: 80px 20px;
@@ -257,7 +257,7 @@ nav ul {
     color: #0D1B2A;
 }
 
-/* Schedule Section */
+
 
 .schedule {
     padding: 80px 20px;
@@ -320,16 +320,59 @@ nav ul {
     margin-right: 12px;
 }
 
-/* CSS-only tab switching */
-#day1:checked ~ #panel-day1,
-#day2:checked ~ #panel-day2,
-#day3:checked ~ #panel-day3 {
+
+#day1:checked~#panel-day1,
+#day2:checked~#panel-day2,
+#day3:checked~#panel-day3 {
     display: flex;
 }
 
-#day1:checked ~ .day-tabs label[for="day1"],
-#day2:checked ~ .day-tabs label[for="day2"],
-#day3:checked ~ .day-tabs label[for="day3"] {
+#day1:checked~.day-tabs label[for="day1"],
+#day2:checked~.day-tabs label[for="day2"],
+#day3:checked~.day-tabs label[for="day3"] {
     background: #2563EB;
     color: #fff;
+}
+
+
+
+.footer-section {
+    background: #0D1B2A;
+    padding: 56px 60px 32px;
+}
+
+.footer-box {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.footer-view {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo {
+    height: 28px;
+    width: auto;
+}
+
+
+.footer-text {
+    display: flex;
+    gap: 24px;
+}
+
+
+.copyright,
+.footer-text span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff66;
 }
